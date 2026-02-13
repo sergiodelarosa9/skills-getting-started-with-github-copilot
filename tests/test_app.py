@@ -10,6 +10,7 @@ def test_get_activities():
     data = response.json()
     assert "Chess Club" in data
     assert "Programming Class" in data
+    assert "Manga Maniacs" in data
 
 
 def test_signup_and_unregister():
